@@ -39,3 +39,8 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+.dos-columnas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
